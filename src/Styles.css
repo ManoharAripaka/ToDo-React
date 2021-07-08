@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+.main{
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    width: 470px;  
+}
+.main h1{
+    font-size: 2.5em;
+}
+.main input{
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    padding: 15px;
+    width: 300px;
+    font-size: 1em;
+    margin-bottom: 30px;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    top:  10px;
+    position: relative;
+    border-radius: 50%;
+    border: none;
+    color: green;
+    margin-left: 12px;
+    font-size: 2.7em;
+}
+.main ul{
+    list-style-type: none;
+}
+.task{
+    display: flex;
+}
+.task button{
+    justify-content: flex-start;
+    border: none;
+    border-radius: 50%;
+    min-width: 30px;
+    height: 30px;
+    font-size: 1.2em;
+    color: red;
+}
+.task li{
+    display: flex;
+    font-size: 1.4em;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.task button:hover{
+    color: white;
+    background-color: red;
+    transition: 0.4s;
+}
+#icon:hover{
+    color: white;
+    background-color: green;
+    transition: 0.4s;
+}
